@@ -4,9 +4,11 @@ public class Boss {
     private String chooseBossDefence;
     private int Damage;
     private int Health;
+
     public String getChooseBossDefence() {
         return chooseBossDefence;
     }
+
     public void setChooseBossDefence(String chooseBossDefence) {
         this.chooseBossDefence = chooseBossDefence;
     }
@@ -19,12 +21,12 @@ public class Boss {
         Damage = damage;
     }
 
-        public int getHealth() {
-            return Health;
-        }
-
-        public void setHealth(int health) {
-            Health = health;
-        }
+    public void setHealth(int health) {
+        Health = health;
     }
+
+    public int getHealth() {
+        return Health;
+    }
+}
 
