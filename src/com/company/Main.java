@@ -16,9 +16,9 @@ public class Main {
     }
 
     public static Hero[] createHeroes() {
-        Hero heroItachi = new Hero(2090, 205, " Itachi");
-        Hero heroIronMan = new Hero(2010, 200, " IronMan ");
-        Hero heroBatman = new Hero(2500, 1230, " Batman");
+        Hero heroItachi = new Hero(4000, 1000, " Itachi");
+        Hero heroIronMan = new Hero(8000, 5000, " IronMan ");
+        Hero heroBatman = new Hero(7090, 3500, " Batman");
 
         Hero[] superHero = {heroItachi , heroIronMan, heroBatman};
         return superHero;
